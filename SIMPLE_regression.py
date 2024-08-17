@@ -41,3 +41,6 @@ sns.scatterplot(x="Original Price",y="Selling Price", data=dataset)
 plt.plot(dataset["Original Price"],y_prd,c="red")
 plt.legend(["Original Price","predicted line"])
 plt.show()
+
+V=float(input("ENTER VALUE FOR PREDICTION"))
+lr.predict([["V"]])
