@@ -42,5 +42,4 @@ plt.plot(dataset["Original Price"],y_prd,c="red")
 plt.legend(["Original Price","predicted line"])
 plt.show()
 
-V=float(input("ENTER VALUE FOR PREDICTION"))
-lr.predict([["V"]])
+lr.predict([["ENTER VALUE FOR PREDICTION"]])  
